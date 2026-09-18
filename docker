@@ -1,0 +1,26 @@
+3. Check for Even or Odd Number (Control Flow)This program uses a conditional if-else statement along with the modulus operator (%) to evaluate if a number is even or odd.javapublic class EvenOddCheck {
+    public static void main(String[] args) {
+        int number = 29;
+
+        // Condition checking if the remainder is zero when divided by 2
+        if (number % 2 == 0) {
+            System.out.println(number + " is an even number.");
+        } else {
+            System.out.println(number + " is an odd number.");
+        }
+    }
+}
+Use code with caution.4. Reverse a String (String Manipulation)This sample code shows how to manipulate strings by reversing a string using a loop.javapublic class ReverseString {
+    public static void main(String[] args) {
+        String original = "Java Programming";
+        String reversed = "";
+        
+        // Loop backwards through the string
+        for (int i = original.length() - 1; i >= 0; i--) {
+            reversed += original.charAt(i);
+        }
+        
+        System.out.println("Original: " + original);
+        System.out.println("Reversed: " + reversed);
+    }
+}
